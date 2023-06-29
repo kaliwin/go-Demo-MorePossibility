@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="RemoteTargetsManager">
+    <targets>
+      <target name="root@ggik.xyz:22" type="ssh/sftp" uuid="5fd8f0c2-39bd-45bd-b016-91b028373422">
+        <config>
+          <option name="projectRootOnTarget" value="$USER_HOME$/go-Demo-MorePossibility" />
+          <option name="serverName" value="root@192.168.124.5:22 key" />
+          <option name="useRsync" value="true" />
+        </config>
+        <ContributedStateBase type="GoLanguageRuntime">
+          <config>
+            <option name="goPath" value="$USER_HOME$/go" />
+            <option name="goRoot" value="$PROJECT_DIR$/../../../go_gcc/go1.18.3/bin" />
+            <option name="goVersion" value="go1.20 linux/amd64" />
+          </config>
+        </ContributedStateBase>
+      </target>
+    </targets>
+  </component>
+</project>
